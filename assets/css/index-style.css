@@ -2,7 +2,7 @@
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #60d7c3 #29113a;
+    scrollbar-color: #84FFC9 #EDEDED;
   }
 
   /* Chrome, Edge, and Safari */
@@ -11,31 +11,18 @@
   }
 
   *::-webkit-scrollbar-track {
-    background: #29113a;
+    background: #EDEDED;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #60d7c3;
+    background-color: #84FFC9;
     border-radius: 4px;
     border: 0px none #ffffff;
     height: 4px;
   }
-/* ===== Scrollbar CSS ===== */
+/* ===== end of Scrollbar CSS ===== */
 
 /* === NAV BAR === */
-
-
-@keyframes logo_glow {
-    0% {
-        box-shadow: 0 0 0px #A67040;
-    }
-    50% {
-        box-shadow: 0 0 10px #A67040;
-    }
-    100% {
-        box-shadow: 0 0 0px #A67040;
-    }
-}
 
 .nav {
 
@@ -56,6 +43,8 @@
 	
 	text-shadow: 0 0 3px #fff;
 }
+
+/* === end of NAV BAR === */
 
 section#home{
     background: linear-gradient(180deg, #0E172C 5.01%, #1C1A3A 43.46%, #2E0F38 98.13%);
