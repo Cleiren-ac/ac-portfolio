@@ -1,0 +1,333 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #60d7c3 #29113a;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #29113a;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #60d7c3;
+    border-radius: 4px;
+    border: 0px none #ffffff;
+    height: 4px;
+  }
+/* ===== Scrollbar CSS ===== */
+
+/* === NAV BAR === */
+
+
+@keyframes logo_glow {
+    0% {
+        box-shadow: 0 0 0px #A67040;
+    }
+    50% {
+        box-shadow: 0 0 10px #A67040;
+    }
+    100% {
+        box-shadow: 0 0 0px #A67040;
+    }
+}
+
+.nav {
+
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0 0.6em;
+	color: #fff;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.nav li a:focus, .nav li a:hover {
+	
+	text-shadow: 0 0 3px #fff;
+}
+
+section#home{
+    background: linear-gradient(180deg, #0E172C 5.01%, #1C1A3A 43.46%, #2E0F38 98.13%);
+    height: 100vh;
+    color: white;
+}
+.backgroundBlobs {
+    background:url('../gradient_elements/gradient_blobs.png') no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+svg {
+    width:  auto;
+    height: auto;
+}
+section#home .homedesign p {
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+section#home .noise{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('../noise.png') repeat;
+    background-size: contain;
+}
+
+section#home .shadow{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('../shadow.png');
+    background-size: cover;
+}
+
+
+section#home img.lines1{
+    position: absolute;
+    width: 518px;
+    height: 116px;
+    left: 60px;
+    top: 124px;
+}
+
+section#home img.lines2{
+    position: absolute;
+    width: 518px;
+    height: 116px;
+    left: 60px;
+    bottom: 124px;
+}
+
+section#home img.blobs{
+    position: absolute;
+    width: 750px;
+    height: 100vh;
+    right: 0px;
+}
+
+section#home p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    width: 851px;
+    height: 519px;
+    left: 55px;
+    top: 275px;
+}
+
+section#about{
+    background: linear-gradient(360deg, #2B133F 5.23%, #32103D 45.22%, #290E32 98.13%);
+    height: 105vh;
+	font-family: 'Montserrat',sans-serif;
+}
+
+section#about .noise{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('../noise.png') repeat;
+    background-size: contain;
+}
+
+section#about .col{
+    text-align: center;
+}
+
+section#about p{
+    position: absolute;
+    width: 1294px;
+    height: auto;
+    left: 120px;
+    top: 160px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+}
+
+#opacity1{
+	opacity: 0.5;
+}
+
+#opacity2{
+	opacity: 0.1;
+}
+
+#font1{
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+#font2{
+	font-size: 23px;
+}
+
+#font3{
+	font-size: 23px;
+	font-weight: 600;
+	color: #E3714D;
+}
+
+#font4{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#font5{
+	font-size: 23px;
+	font-weight: 600;
+}
+
+#font6{
+	color: #E09945;
+	font-family: 'Consolas';
+}
+
+section#works{
+    background: linear-gradient(360deg, #512279 5.23%, #3B1A57 45.22%, #261036 98.13%);
+    height: 100vh;
+}
+
+section#works .noise{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('../noise.png') repeat;
+    background-size: contain;
+}
+
+section#works .works-list{
+    position: absolute;
+    width: 1294px;
+    height: auto;
+    left: 15px;
+    top: 100px;
+    color: #fff;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+
+section#works ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	color:#fff;
+}
+
+section#works .works-list a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.works-list ul li:hover {
+  background-color: rgba(96, 66, 215, 0.8);
+  cursor: pointer;
+}
+
+
+section#works div.position-absolute ul li a, section#works div.position-absolute ul li, section#works div.position-absolute ul {
+    width: inherit;
+    height: inherit;
+}
+
+section#works ul li a span {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+section#works ul#responsive li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color:#e09945;
+}
+
+section#works b {
+    display: block;
+    font-size: 18px;
+    color:#fff;
+}
+
+section#works a {
+	text-decoration: none;
+	color:#fff;
+	transition: 0.5s;
+}
+
+section#works a:hover, section#works a:focus {
+	color:orange;
+}
+
+footer {
+    background: linear-gradient(266.34deg, #552D6C 6.02%, #1F0D2D 72.7%);
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px;
+    text-align:center;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+section#about .container{
+    height: 100%;
+} 
+
+@media (min-width: 768px){
+
+    section#about .container{
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px){
+
+    section#about .container{
+        height: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+
+    section#about .container{
+        height: inherit;
+    }
+}
