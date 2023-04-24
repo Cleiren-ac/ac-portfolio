@@ -107,13 +107,37 @@ section#about {
     color: #1E1234;
 }
 
+.aboutme {
+    padding: 2.5rem;
+    border-radius: 1em;
+}
+
 .heading {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
     font-size: 2em;
 }
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.aboutme:hover {
+    background-color: #E1DAEB;
+    transition: all 0.5s;
+}
 /* === end of ABOUT === */
+
+/* === start of WORKS === */
+section#works {
+    background-image: url(../image/noise-bg.png);
+    height: 100vh;
+    color: #1E1234;
+}
+/* === end of WORKS === */
 
 footer {
     background: linear-gradient(266.34deg, #552D6C 6.02%, #1F0D2D 72.7%);
