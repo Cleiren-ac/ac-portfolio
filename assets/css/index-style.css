@@ -48,7 +48,6 @@ body {
 
 .navbar-scrolled {
     background-color: #E2DAEB;
-    backdrop-filter: blur(10px);
 }
 
 /* === end of NAV BAR === */
@@ -103,13 +102,18 @@ svg {
 /* === start of ABOUT === */
 section#about {
     background-image: url(../image/noise-bg.png);
-    height: 100vh;
+    height: auto;
     color: #1E1234;
 }
 
 .aboutme {
     padding: 2.5rem;
     border-radius: 1em;
+}
+
+.aboutme:hover {
+    background-color: #E1DAEB;
+    transition: all 0.5s;
 }
 
 .heading {
@@ -123,19 +127,46 @@ section#about {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
-}
 
-.aboutme:hover {
-    background-color: #E1DAEB;
-    transition: all 0.5s;
+    width: 30vw;
 }
 /* === end of ABOUT === */
 
 /* === start of WORKS === */
 section#works {
     background-image: url(../image/noise-bg.png);
-    height: 100vh;
+    height: auto;
     color: #1E1234;
+}
+
+.works {
+    padding: 2.5rem;
+    border-radius: 1em;
+}
+
+.works a {
+    color: #1B1325;
+    text-decoration: none;
+}
+
+.works a:hover {
+    color: #67568C;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 3em;
+    color:#1B1325;
+    text-align: center;
+
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #67568C;
+}
+
+#image {
+    width: auto;
 }
 /* === end of WORKS === */
 
