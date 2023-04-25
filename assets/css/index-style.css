@@ -171,9 +171,10 @@ section#works {
 /* === end of WORKS === */
 
 footer {
-    background: linear-gradient(266.34deg, #552D6C 6.02%, #1F0D2D 72.7%);
+    background-color: #E2DAEB;
+    backdrop-filter: blur(10px);
     width: 100%;
-    color: #fff;
+    color: #1B1325;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -185,36 +186,4 @@ footer {
 footer p{
     margin: 0;
     padding: 0;
-}
-
-section#about .container{
-    height: 100%;
-}
-
-@media (min-width: 576px){
-
-    section#works .container{
-        height: 100%;
-    }
-}
-
-@media (min-width: 768px){
-
-    section#works .container{
-        height: 100%;
-    }
-}
-
-@media (min-width: 992px){
-
-    section#works .container{
-        height: 100%;
-    }
-}
-
-@media (min-width: 1200px){
-
-    section#works .container{
-        height: inherit;
-    }
 }
