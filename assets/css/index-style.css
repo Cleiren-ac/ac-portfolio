@@ -127,8 +127,7 @@ section#about {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
-
-    width: 30vw;
+    width: auto;
 }
 /* === end of ABOUT === */
 
@@ -167,6 +166,7 @@ section#works {
 
 #image {
     width: auto;
+    height: auto;
 }
 /* === end of WORKS === */
 
@@ -189,25 +189,32 @@ footer p{
 
 section#about .container{
     height: 100%;
-} 
+}
+
+@media (min-width: 576px){
+
+    section#works .container{
+        height: 100%;
+    }
+}
 
 @media (min-width: 768px){
 
-    section#about .container{
+    section#works .container{
         height: 100%;
     }
 }
 
 @media (min-width: 992px){
 
-    section#about .container{
+    section#works .container{
         height: 100%;
     }
 }
 
 @media (min-width: 1200px){
 
-    section#about .container{
+    section#works .container{
         height: inherit;
     }
 }
