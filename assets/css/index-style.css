@@ -143,12 +143,12 @@ section#works {
     border-radius: 1em;
 }
 
-.works a {
+.works a, .content a {
     color: #1B1325;
     text-decoration: none;
 }
 
-.works a:hover {
+.works a:hover, .content a:hover {
     color: #67568C;
     transition: all 0.5s;
     cursor: pointer;
@@ -167,6 +167,14 @@ section#works {
 #image {
     width: auto;
     height: auto;
+}
+
+.scroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
 }
 /* === end of WORKS === */
 
