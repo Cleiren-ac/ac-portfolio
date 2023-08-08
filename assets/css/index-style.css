@@ -148,7 +148,18 @@ section#works {
     text-decoration: none;
 }
 
-.works a:hover, .content a:hover {
+.content a {
+    color: #1B1325;
+    text-decoration: none;
+}
+
+.works a:hover {
+    color: #67568C;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.content a:hover {
     color: #67568C;
     transition: all 0.5s;
     cursor: pointer;
